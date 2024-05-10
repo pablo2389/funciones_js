@@ -1,5 +1,13 @@
 "use strict";
-
+function generarInvitados() {
+    let invitado1=prompt("ingresa el nombre del primer invitado:");
+    let invitado2=prompt("ingresa el nombre del segundo invitado:");
+    let invitado3=prompt("ingresa el nmbre del tercer invitado:");
+    console.log("los invitados son:");
+    console.log("1."+invitado1);
+    console.log("2."+ invitado2);
+    console.log("3."+invitado3);
+}
 /* Inove Coding School
  * Ejercicios con funciones
  */
@@ -9,6 +17,7 @@
 // function generarInvitados()
 
 /*
+
 Alumno: Crear la función "generarInvitados"
 Esta función no recibe ningún paraḿetro de entrada
 
